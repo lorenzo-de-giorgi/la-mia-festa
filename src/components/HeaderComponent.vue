@@ -1,14 +1,16 @@
 <template>
-    <nav class="d-flex justify-content-between align-items-center">
-        <div>
-            <img id="lmf-logo" src="/logo.jpg">
-        </div>
-        <div id="lmf-nav">
-            <ul class="d-flex me-4">
-                <li class="me-4 list-unstyled" v-for="navItem in Items" :key="navItem.id">
-                    <a id="lmf-nav-link" :href="navItem.link">{{ navItem.name }}</a>
-                </li>
-            </ul>
+    <nav>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <img id="lmf-logo" src="/logo.jpg">
+            </div>
+            <div id="lmf-nav">
+                <ul class="d-flex me-2">
+                    <li class="me-4 list-unstyled no-wrap" v-for="navItem in Items" :key="navItem.id">
+                        <a id="lmf-nav-link" :href="navItem.link">{{ navItem.name }}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <SliderComponent />
@@ -44,6 +46,10 @@ import SliderComponent from './SliderComponent.vue';
     #lmf-nav-link{
         text-decoration: none;
         color: $gold;
+        font-size: 15px;
     }
 
+    .no-wrap {
+        white-space: nowrap;
+    }
 </style>
