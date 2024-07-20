@@ -1,16 +1,16 @@
 <template>
   <HeaderComponent />
-  <SliderComponent />
+  <MainComponent />
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
-import SliderComponent from './components/SliderComponent.vue';
+import MainComponent from './components/MainComponent.vue';
   export default {
     name: 'App',
     components: {
       HeaderComponent,
-      SliderComponent
+      MainComponent
     }
     
   }
