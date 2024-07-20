@@ -11,11 +11,17 @@
             </ul>
         </div>
     </nav>
+    <SliderComponent />
 </template>
 
 <script>
+import SliderComponent from './SliderComponent.vue';
+
     export default {
         name: 'HeaderComponent',
+        components: {
+            SliderComponent,
+        },
         data() {
             return {
                 Items: [
