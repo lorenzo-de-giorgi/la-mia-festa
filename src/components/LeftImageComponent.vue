@@ -21,6 +21,7 @@
     @use '../assets/styles/partials/variables' as *;
 
     .container {
+        margin-top: 100px;
         display: flex;
         align-items: center;
         gap: 20px; // Aggiungi un po' di spazio tra l'immagine e il testo
