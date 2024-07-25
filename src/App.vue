@@ -3,6 +3,7 @@
   <MainComponent />
   <LeftImageComponent />
   <RightImageComponent />
+  <MapComponent />
   <FooterComponent />
 </template>
 
@@ -11,7 +12,9 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import LeftImageComponent from './components/LeftImageComponent.vue';
 import RightImageComponent from './components/RightImageComponent.vue';
+import MapComponent from './components/MapComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import MapComponent from './components/MapComponent.vue';
   export default {
     name: 'App',
     components: {
@@ -19,6 +22,7 @@ import FooterComponent from './components/FooterComponent.vue';
       MainComponent,
       LeftImageComponent,
       RightImageComponent,
+      MapComponent,
       FooterComponent
     }
     
