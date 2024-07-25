@@ -14,7 +14,6 @@ import LeftImageComponent from './components/LeftImageComponent.vue';
 import RightImageComponent from './components/RightImageComponent.vue';
 import MapComponent from './components/MapComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import MapComponent from './components/MapComponent.vue';
   export default {
     name: 'App',
     components: {
