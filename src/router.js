@@ -10,6 +10,11 @@ const router = createRouter({
             name: 'home',
             component: App,
         },
+        {
+            path: '/chi-siamo',
+            name: 'chi-siamo',
+            component: ChiSiamo,
+        },
     ]
 });
 export { router };
