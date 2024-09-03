@@ -4,7 +4,7 @@
         <div class="container">
             <form action="" class="form-group">
                 <input class="form-control mt-2" type="number" placeholder="Inserisci un numero di telefono per essere contattato">
-                <input class="form-control mt-2" type="text" placeholder="Inviaci un messaggio">
+                <textarea class="form-control mt-2" type="text" placeholder="Inviaci un messaggio"></textarea>
                 <input type="submit" class="mt-2 btn btn-primary">
             </form>
         </div>  
