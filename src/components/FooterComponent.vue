@@ -1,6 +1,13 @@
 <template>
     <footer class="text-center mt-5">
-        <h6>Vuoi organizzare una festa? Contattaci</h6>
+        <h6 class="fs-4 mt-2">Vuoi organizzare una festa? Contattaci</h6>
+        <div class="container">
+            <form action="" class="form-group">
+                <input class="form-control mt-2" type="number" placeholder="Inserisci un numero di telefono per essere contattato">
+                <input class="form-control mt-2" type="text" placeholder="Inviaci un messaggio">
+                <input type="submit" class="mt-2 btn btn-primary">
+            </form>
+        </div>  
     </footer>
 </template>
 
