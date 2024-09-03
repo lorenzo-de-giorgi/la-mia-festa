@@ -1,6 +1,6 @@
 <template>
     <footer class="text-center mt-5">
-        Test Footer
+        <h6>Vuoi organizzare una festa? Contattaci</h6>
     </footer>
 </template>
 
